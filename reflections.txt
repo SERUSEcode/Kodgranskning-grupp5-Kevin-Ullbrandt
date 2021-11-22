@@ -1,0 +1,10 @@
+Kodens funktion är att kunna beställa 4 olika varor. Samt kunna ge detaljer över dessa varor man har beställt. 
+Även ska man kunna lista ut alla beställda produkter 
+
+Det finns en separat fil för varje produkt. Varje fil för produkterna är uppbygda på exakt samma sätt. En lista, en Properties function och en add function.
+Detta är gjort för att det ska vara simplare att få en förståelse för alla filer. Även att alla produkter behöver samma funktionalitet så 
+tänkte att detta var det absolut smidigaste sättet att görat på. 
+I Program.cs filen så är den uppbygd på så sätt att den hämtar alla filer först. Sedan kommer loop som skriver ut menyn. Loopen går
+för alltid tills man skriver "q". Menyn lyssnar på vilken inmatning den får. Sist så kommer utskriften vilket jag vill tilläga att
+jag kunde ha lagt i varje produkt och kallat på en "output" eller en "list" funktion för att skriva ut varje produkt eller gjort en 
+separat fil som heter "output list" och kallat på den för att skriva ut. Men kända att det blir extermt då det är väldigt överskådligt.
